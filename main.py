@@ -6,10 +6,10 @@ class Employees:
         self.salary = salary
         self.current_raise_amount = Employees.raise_amount
 
-    def add_salary(self, salary):
+    def add_salary(self):
         self.salary = self.salary + self.current_raise_amount
 
-    def get_full_name(self, first_name, last_name):
+    def get_full_name(self):
         return f"{self.first_name} {self.last_name}"
 
     @classmethod
